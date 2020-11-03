@@ -1,27 +1,20 @@
-//Números primos...
+//Serie de números primos
+var i = 1;
+var primo = 2;
+var esPrimo = 1;
 const n = 10;
-var j = 2;
-var Primos = [];
-
-for (; j < n; j++) {
-
-  if (primo(j)) {
-    Primos.push(j);
-  }
-  
-}
-
-console.log(Primos);
-
-function primo(numero) {
-
-  for (var i = 2; i < numero; i++) {
-
-    if (numero % i === 0) {
-      return false;
+while (i <= n){
+    let mitad = Math.round(primo / 2);
+    while (mitad >= 2 && esPrimo == 1 ){
+        if (primo % mitad == 0){
+            esPrimo = 0;    
+        }
+        mitad--;    
     }
-
-  }
-
-  return numero !== 1;
+    if(esPrimo == 1){
+        console.log(primo);
+        i++;
+    } 
+    primo += 1;
+    esPrimo = 1;
 }
