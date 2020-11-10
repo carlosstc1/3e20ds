@@ -1,11 +1,4 @@
-//Imprimir series de n=10 números según corresponda
-
-//usar iteraciones de k={1,n}
-
-//no leer datos, ie usar constantes x=3
-
 //fibonacci
-
 const n = 10;
 var val0 = 0;
 var val1 = 1;
