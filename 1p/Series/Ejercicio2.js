@@ -1,7 +1,4 @@
-//Imprimir series de n=10 números según corresponda
-//usar iteraciones de k={1,n}
-//no leer datos, ie usar constantes x=3
-//Serie de números impares alternando signo.
+//Serie de Números Negativa
 let val1=1;                                 
 for(let s=0;;s++){                     
     if(s%2==1){                       
