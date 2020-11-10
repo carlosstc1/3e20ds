@@ -1,7 +1,18 @@
 // Factorial
-const x = 10;
-var resultado = x;
-for(var i = x-1; i >= 1; i--){
-    resultado = resultado * i;
+for(let z=1;z<=10;z++){
+
+    console.log(z+"!="+factorial(z));        
+
 }
-console.log(resultado);
+
+function factorial(numero){              
+    var final = 1;
+    
+    for(let i=1;i<=numero;i++){         
+        
+        final=final*i;              
+    
+    }
+    
+    return final;                  
+}
