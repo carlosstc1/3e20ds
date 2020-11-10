@@ -9,6 +9,7 @@ while (i <= n){
         if (primo % mitad == 0){
             esPrimo = 0;    
         }
+        
         mitad--;    
     }
     if(esPrimo == 1){
