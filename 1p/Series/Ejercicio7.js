@@ -1,6 +1,4 @@
-//Imprimir series de n=10 números según corresponda
-//usar iteraciones de k={1,n}
-//no leer datos, ie usar constantes x=3
+//aleatorios (min=1, max=10)
 const n = 10;
 const k = 1;
 for (var i = 0; i < n; i++) {
