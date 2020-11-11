@@ -1,11 +1,12 @@
 //Potencia x a la y
-var x;
+var x = 2;
 var y = 1;
-console.log('Coloque el número que desea sacar su potencia');
+var contador;
+console.log('Coloque cuantos números quiere en la serie: ');
 process.stdin.on('data', function(data){
-x = data.toString();
+contador = data.toString();
 
-for(var i = 1; i<= 10; i++){
+for(var i = 1; i<= contador; i++){
 var p = Math.pow(x, y);
 console.log('El '+x+' elevado a '+y+' es igual a: ' +p);
 y ++;
