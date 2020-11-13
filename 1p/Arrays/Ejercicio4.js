@@ -1,19 +1,24 @@
 //Array de números primos
-let x=1;                               
-let array=new Array(10);               
-for(let i=0;;i++){                    
-    if(i%2==1){                      
-        if(x%2==1){                
-            array[x]=i*-1;
+var i = 1;
+var primo = 2;
+var esPrimo = 1;
+const n = 10;
+var final = [];
+while (i <= n){
+    let mitad = Math.round(primo / 2);
+    while (mitad >= 2 && esPrimo == 1 ){
+        if (primo % mitad == 0){
+            esPrimo = 0;    
         }
-        else if (x%2==0){           
-            array[x]=i;
-        }
-    x++;                          
+        
+        mitad--;    
     }
-    if(x>10){
-        break;                 
-    }
+    if(esPrimo == 1){
+        final[i] = primo;
+        i++;
+    } 
+    primo += 1;
+    esPrimo = 1;
 }
 
     console.log("El array contiene ["+array.length+"] elementos, los cuales son: "+array);   
