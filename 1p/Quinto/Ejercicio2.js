@@ -1,3 +1,4 @@
+//Quinto triangular
 let val1 = 1;
 let val2 = 0;
 let array = [];
