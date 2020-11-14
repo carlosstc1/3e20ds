@@ -1,5 +1,5 @@
     //Quinto Factorial.
-    var n = 5;
+    var n = 10;
     var total = 1; 
     var array = [];
 	for (i = 1; i <= n; i ++) {
@@ -8,5 +8,5 @@
          
     }
     
-	console.log('El quinto elemento es: '+array[4]);
+	console.log('El array contiene: '+array.length+' elementos, El quinto elemento es: '+array[4]);
 
