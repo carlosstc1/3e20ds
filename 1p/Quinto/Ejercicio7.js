@@ -1,10 +1,14 @@
 //Quinto Renglón del Triangulo de Pascal
-const z = 11;
-const x = 10
+var num = 1;
+const x = 5;
 var array = [];
+for(r=0;r<=x;r++){
 
-for(var i = 0; i < x; i ++){
-    array[i] = Math.pow(z, (i+1))
-
+    if(r==x){
+        for(i=0;i<=r;i++){
+            array[i] = num;
+            num=num*(r-i)/(i+1);
+        }
+    }
 }
-console.log(array[4]);
+console.log('El quinto renglón de el triángulo de pascal es: ['+array+']');
