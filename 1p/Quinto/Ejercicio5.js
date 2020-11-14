@@ -6,6 +6,7 @@
         total = total * i;
         array[i-1] = total
          
-	}
+    }
+    
 	console.log('El quinto elemento es: '+array[4]);
 
