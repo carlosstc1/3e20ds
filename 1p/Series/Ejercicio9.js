@@ -1,18 +1,10 @@
-// Factorial
-for(let z=1;z<=10;z++){
+    //Serie Factorial.
+    var n = 10;
+    var total = 1; 
+    var array = [];
+	for (i = 1; i <= n; i ++) {
+        total = total * i;
+        console.log(+i+'! = '+total);
+         
+	}
 
-    console.log(z+"!="+factorial(z));        
-
-}
-
-function factorial(numero){              
-    var final = 1;
-    
-    for(let i=1;i<=numero;i++){         
-        
-        final=final*i;              
-    
-    }
-    
-    return final;                  
-}
