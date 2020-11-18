@@ -22,7 +22,7 @@ return resultado;
 
     mFac = fact(resultado, i)
 
-    facto = 2;
+    facto = invitados - 2;
     resultado = facto;
     i = facto-1;
 
