@@ -1,4 +1,4 @@
-//En una fiesta hay 3 invitados, si cada uno saluda a todos los demás, cuantos saludos ocurrieron?
+//En una fiesta hay 3 invitados, si cada uno saluda a todos los demás, cuantos saludos ocurrieron ?
 var invitados = 3;
 var facto = invitados;
 var resultado = facto;
