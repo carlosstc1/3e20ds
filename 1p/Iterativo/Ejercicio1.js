@@ -8,6 +8,7 @@ array[y] = (Math.random() * (1 - 0) + 0);
 y++
 
 }
+
 for(var i = 0; i < array.length; i++){
 console.log(array[i]);}
 console.timeEnd();
