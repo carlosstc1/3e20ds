@@ -1,1 +1,2 @@
-No listo 
+//Sacar columna
+    
