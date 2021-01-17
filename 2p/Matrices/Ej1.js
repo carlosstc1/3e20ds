@@ -8,7 +8,7 @@ let matriz= [];
 for(let i=0; i<3; i++) {
     matriz[i]=[]
 }
-console.log("Matríz Original")
+console.log("Matríz Original: ")
 for (let i=0; i<Matriz.length; i++){
 
     console.log(Matriz[i]);
@@ -20,7 +20,7 @@ class Procedimiento{
                 matriz[x][i] = Matriz[i][x];
             }
         }
-        console.log("Matríz Transpuesta")
+        console.log("Matríz Transpuesta: ")
         for (let i=0; i<matriz.length; i++){
             console.log(matriz[i]);
         }
