@@ -1,2 +1,0 @@
-//Sacar columna
-    
